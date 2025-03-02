@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to My Personal Website</h1>
+
+    <p>Hello! I'm <b>G. Srilakshmi Prasuna</b>, a passionate B.Tech student at GITAM with a keen interest in "Data Structers, Machine Learning, and Software Development".
+
+
+ I enjoy working with "Python, C, and Web Development", and I'm always looking to learn and build new projects.</p>
+
+
+
+    <h2>About Me</h2>
+    <p>Currently, I am working on "web development projects" using Flask and exploring "AI applications" in real-world problems. 
+
+
+My strengths include "problem-solving, teamwork, and effective communication."</p>
+
+
+
+    <h2>Projects</h2>
+    <ul>
+        <li>📌 <b>AI-Powered Booklist Manager</b> – A Python-based app to manage and recommend books.</li>
+
+
+        <li>📌 <b>GPA Calculator in Excel</b> – Using formulas, sorting, and lookup functions.</li>
+
+
+        <li>📌 <b>Supernatural Mystery Story</b> – A creative writing project blending suspense and magic.</li>
+    </ul>
+
+
+    <h2>Resume</h2>
+    <p>Click below to view my resume:</p>
+    <a href="{{ url_for('static', filename='resume.pdf') }}" target="_blank" class="resume-link">📄 View Resume</a>
+
+    <br>
+    <h2>Contact Me</h2>
+    <p>📧 Email: <b>gssprasunarithika0318@gmail.com</b></p>
+    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/prasuna-rithika-gurrala-1a3867302/" target="_blank">Connect with me on LinkedIn</a></p>
+
+    <br>
+    <a href="/logout"><button>Logout</button></a>
+</body>
+</html>
+
+
